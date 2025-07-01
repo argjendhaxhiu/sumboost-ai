@@ -30,8 +30,11 @@
     padding: 0;
 }
 
-.sumboost-ai-button i {
-    font-size: 1.2em;
+.sumboost-ai-button .dashicons {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
 }
 
 /* Full button style */
@@ -43,11 +46,11 @@
     gap: 0.8em;
 }
 
-.sumboost-ai-container.full-buttons .sumboost-ai-button i {
+.sumboost-ai-container.full-buttons .sumboost-ai-button .dashicons {
     margin-right: 0;
 }
 
-.sumboost-ai-container.full-buttons .sumboost-ai-button span {
+.sumboost-ai-container.full-buttons .sumboost-ai-button span:not(.dashicons) {
     font-weight: 500;
     font-size: 0.95em;
 }
@@ -82,26 +85,26 @@
     z-index: 100;
 }
 
-.share-to-ai-chatgpt {
+.sumboost-ai-chatgpt {
     background-color: #10a37f;
 }
 
-.share-to-ai-chatgpt:hover {
+.sumboost-ai-chatgpt:hover {
     background-color: #0d8c6d;
 }
 
-.share-to-ai-perplexity {
+.sumboost-ai-perplexity {
     background-color: #5436da;
 }
 
-.share-to-ai-perplexity:hover {
+.sumboost-ai-perplexity:hover {
     background-color: #4526c4;
 }
 
-.share-to-ai-claude {
+.sumboost-ai-claude {
     background-color: #000000;
 }
 
-.share-to-ai-claude:hover {
+.sumboost-ai-claude:hover {
     background-color: #333333;
 } 

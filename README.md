@@ -25,9 +25,9 @@ A WordPress plugin that helps boost your content's reach with AI summarization b
 
 Once activated, the plugin will automatically add AI boost buttons at the bottom of all your posts and pages. The buttons include:
 
-- Boost with ChatGPT
-- Boost with Perplexity
-- Boost with Claude
+- Summarise with ChatGPT
+- Examine with Perplexity
+- Analyse with Claude
 
 When a user clicks any of these buttons, it will open the respective AI tool with your content pre-loaded for analysis.
 
@@ -49,6 +49,10 @@ The plugin creates specially formatted URLs that open AI tools with your content
 - Claude: Opens with an analysis prompt for your content
 
 This helps build presence in AI memory and increases the chances of your content being cited in future AI responses.
+
+## Credits
+
+This plugin was inspired by [Metehan Yesilyurt's article about improving content visibility in AI systems](https://metehanai.substack.com/p/i-found-a-way-to-get-ai-to-send-you). The concept has been adapted into a WordPress plugin to help content creators increase their discoverability in AI responses.
 
 ## Contributing
 

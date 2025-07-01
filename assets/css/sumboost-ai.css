@@ -1,0 +1,107 @@
+.sumboost-ai-container {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    background: #f8f9fa;
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sumboost-ai-container h4 {
+    margin: 0;
+    font-size: 1.1em;
+    color: #333;
+    flex-basis: 100%;
+}
+
+.sumboost-ai-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+
+.sumboost-ai-button i {
+    font-size: 1.2em;
+}
+
+/* Full button style */
+.sumboost-ai-container.full-buttons .sumboost-ai-button {
+    border-radius: 6px;
+    padding: 0.8em 1.5em;
+    width: auto;
+    height: auto;
+    gap: 0.8em;
+}
+
+.sumboost-ai-container.full-buttons .sumboost-ai-button i {
+    margin-right: 0;
+}
+
+.sumboost-ai-container.full-buttons .sumboost-ai-button span {
+    font-weight: 500;
+    font-size: 0.95em;
+}
+
+.sumboost-ai-button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Tooltip styles */
+.sumboost-ai-button {
+    position: relative;
+}
+
+.sumboost-ai-button:hover::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    margin-bottom: 5px;
+    pointer-events: none;
+    z-index: 100;
+}
+
+.share-to-ai-chatgpt {
+    background-color: #10a37f;
+}
+
+.share-to-ai-chatgpt:hover {
+    background-color: #0d8c6d;
+}
+
+.share-to-ai-perplexity {
+    background-color: #5436da;
+}
+
+.share-to-ai-perplexity:hover {
+    background-color: #4526c4;
+}
+
+.share-to-ai-claude {
+    background-color: #000000;
+}
+
+.share-to-ai-claude:hover {
+    background-color: #333333;
+} 

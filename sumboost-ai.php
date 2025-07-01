@@ -2,13 +2,16 @@
 /**
  * Plugin Name: SumBoost AI - Content Growth
  * Plugin URI: https://github.com/argjendhaxhiu/sumboost-ai
- * Description: Boost your content's reach with AI summarization buttons. Increase visibility and citations in AI responses.
+ * Description: Enhance your content's discoverability in AI systems with elegant, one-click buttons for ChatGPT, Claude and Perplexity AI.
  * Version: 1.0.0
  * Author: Argjend Haxhiu
  * Author URI: https://github.com/argjendhaxhiu
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: sumboost-ai-2
+ * Text Domain: sumboost-ai
+ *
+ * This plugin was inspired by Metehan Yesilyurt's article about improving content visibility in AI systems:
+ * https://metehanai.substack.com/p/i-found-a-way-to-get-ai-to-send-you
  */
 
 if (!defined('ABSPATH')) {

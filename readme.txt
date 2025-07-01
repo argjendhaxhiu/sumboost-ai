@@ -8,20 +8,24 @@ Requires PHP: 7.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Boost your content's reach with AI summarization buttons. Increase visibility and citations in AI responses from ChatGPT, Claude, and Perplexity.
+Enhance your content's discoverability in AI systems with elegant, one-click buttons for ChatGPT, Claude and Perplexity AI.
 
 == Description ==
 
-SumBoost AI helps you increase your content's visibility in AI responses by making it easy for readers to analyze and reference your content using popular AI tools.
+This lightweight plugin helps readers analyse, examine and summarise your content, increasing its visibility and citation potential across AI platforms. Built to the highest WordPress standards with privacy in mind—no data collection, no external dependencies, just seamless integration with leading AI tools.
 
 = Key Features =
 
-* Adds AI boost buttons to your posts and pages
+* Adds AI analysis buttons to your posts and pages
 * Supports ChatGPT, Claude, and Perplexity AI
 * Choose between icon-only or full button styles
 * Customize colors for each button
 * Clean, modern design that fits any theme
 * Lightweight and easy to use
+
+= Credits =
+
+This plugin was inspired by [Metehan Yesilyurt's article](https://metehanai.substack.com/p/i-found-a-way-to-get-ai-to-send-you) about improving content visibility in AI systems. The concept has been adapted into a WordPress plugin to help content creators increase their discoverability in AI responses.
 
 = How It Works =
 
